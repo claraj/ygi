@@ -6,8 +6,10 @@ import org.apache.maven.plugins.annotations.Mojo;
 public class YourGradeIs extends AbstractMojo {
 
     public void execute() throws MojoExecutionException {
-        getLog().info("hello world");
+        getLog().info("hello from the grade calculator");
+        new GradeCalc(getLog()).gradeCalc();
     }
 
+    // todo write
 
 }
