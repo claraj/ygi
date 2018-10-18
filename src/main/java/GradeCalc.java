@@ -113,13 +113,13 @@ public class GradeCalc {
     private GradeScheme readGradeScheme() throws MojoExecutionException {
         try {
 
-            JsonReader reader = new JsonReader(new FileReader(new File("grades", "grades.json")));
+            JsonReader reader = new JsonReader(new FileReader(new File("grades", "grade_scheme.json")));
             Gson gson = new Gson();
             return gson.fromJson(reader, GradeScheme.class);
 
         } catch (FileNotFoundException e) {
             log.error("Unable to read grade schema data from grade file.");
-            throw new MojoExecutionException("Unable to find grades/grades.json file.");
+            throw new MojoExecutionException("Unable to find grades/grade_scheme.json file.");
         } catch (JsonParseException e) {
             throw new MojoExecutionException("Unable to read JSON data from grades/grades.json file");
         }

@@ -7,7 +7,7 @@
   <description>MCTC Java 2454 Grade Calculator.</description>
   <groupId>edu.minneapolis</groupId>
   <artifactId>ygi-maven-plugin</artifactId>
-  <version>0.0.2-alpha-1</version>
+  <version>0.0.2-alpha-3</version>
   <goalPrefix>ygi</goalPrefix>
   <isolatedRealm>false</isolatedRealm>
   <inheritedByDefault>true</inheritedByDefault>

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Question
 {
-    private String[] test_file;
+    private String[] test_files;
     
     private double points;
     
@@ -14,12 +14,12 @@ public class Question
     
     public String[] getTest_files ()
     {
-        return test_file;
+        return test_files;
     }
     
-    public void setTest_files (String[] test_file)
+    public void setTest_files (String[] test_files)
     {
-        this.test_file = test_file;
+        this.test_files = test_files;
     }
     
     public double getPoints ()
@@ -55,6 +55,6 @@ public class Question
     @Override
     public String toString()
     {
-        return "Question [test_file = "+ Arrays.toString(test_file)+", points = "+points+", question = "+question+", java_file = "+java_file+"]";
+        return "Question [test_file = "+ Arrays.toString(test_files)+", points = "+points+", question = "+question+", java_file = "+java_file+"]";
     }
 }
