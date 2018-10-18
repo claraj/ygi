@@ -1,4 +1,6 @@
 import com.google.gson.Gson;
+import com.google.gson.JsonIOException;
+import com.google.gson.JsonParseException;
 import com.google.gson.stream.JsonReader;
 import model.GradeScheme;
 import model.Question;
@@ -109,32 +111,17 @@ public class GradeCalc {
 
 
     private GradeScheme readGradeScheme() throws MojoExecutionException {
-
-        // File is in grades/week_X.json
-
-        File gradeDirectory = new File("grades");
-        String[] files = gradeDirectory.list(new FilenameFilter() {
-            @Override
-            public boolean accept(File dir, String name) {
-                return name.matches("week_\\d+\\.json");
-            }
-        });
-
-        if (files != null && files.length < 1) {
-            throw new MojoExecutionException("Grade schema file (named week_*.json) or more than one .json file found in grades directory.");
-        }
-
-        String gradeFilename = files[0];
-
         try {
 
-            JsonReader reader = new JsonReader(new FileReader(new File(gradeDirectory, gradeFilename)));
+            JsonReader reader = new JsonReader(new FileReader(new File("grades", "grades.json")));
             Gson gson = new Gson();
             return gson.fromJson(reader, GradeScheme.class);
 
-        } catch (Exception e){
+        } catch (FileNotFoundException e) {
             log.error("Unable to read grade schema data from grade file.");
-            throw new MojoExecutionException("\"Unable to read grade schema data from grade file.\"");
+            throw new MojoExecutionException("Unable to find grades/grades.json file.");
+        } catch (JsonParseException e) {
+            throw new MojoExecutionException("Unable to read JSON data from grades/grades.json file");
         }
     }
 
