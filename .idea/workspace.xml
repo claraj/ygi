@@ -2,9 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="718df4e9-28ef-4234-b946-b67d4f8aaa7d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GradeCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GradeCalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GradeCalc$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GradeCalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/edu.minneapolis/ygi-maven-plugin/plugin-help.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/YourGradeIs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/GradeScheme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/TestFileResults.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7/.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7/edu/minneapolis/maven-metadata-nexus.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7/edu/minneapolis/ygi-maven-plugin/0.0.2-alpha-1/ygi-maven-plugin-0.0.2-alpha-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7/edu/minneapolis/ygi-maven-plugin/0.0.2-alpha-1/ygi-maven-plugin-0.0.2-alpha-1.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7/edu/minneapolis/ygi-maven-plugin/0.0.2-alpha-1/ygi-maven-plugin-0.0.2-alpha-1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7/edu/minneapolis/ygi-maven-plugin/0.0.2-alpha-1/ygi-maven-plugin-0.0.2-alpha-1.pom.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7/edu/minneapolis/ygi-maven-plugin/0.0.2-alpha-2/ygi-maven-plugin-0.0.2-alpha-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7/edu/minneapolis/ygi-maven-plugin/0.0.2-alpha-2/ygi-maven-plugin-0.0.2-alpha-2.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7/edu/minneapolis/ygi-maven-plugin/0.0.2-alpha-2/ygi-maven-plugin-0.0.2-alpha-2.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7/edu/minneapolis/ygi-maven-plugin/0.0.2-alpha-2/ygi-maven-plugin-0.0.2-alpha-2.pom.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7/edu/minneapolis/ygi-maven-plugin/0.0.2-alpha-3/ygi-maven-plugin-0.0.2-alpha-3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7/edu/minneapolis/ygi-maven-plugin/0.0.2-alpha-3/ygi-maven-plugin-0.0.2-alpha-3.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7/edu/minneapolis/ygi-maven-plugin/0.0.2-alpha-3/ygi-maven-plugin-0.0.2-alpha-3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7/edu/minneapolis/ygi-maven-plugin/0.0.2-alpha-3/ygi-maven-plugin-0.0.2-alpha-3.pom.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/193bfe9cc5ce7/edu/minneapolis/ygi-maven-plugin/maven-metadata-nexus.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ygi-maven-plugin-0.0.2-alpha-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ygi-maven-plugin-0.0.2-alpha-1.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ygi-maven-plugin-0.0.2-alpha-1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ygi-maven-plugin-0.0.2-alpha-1.pom.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ygi-maven-plugin-0.0.2-alpha-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ygi-maven-plugin-0.0.2-alpha-2.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ygi-maven-plugin-0.0.2-alpha-2.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ygi-maven-plugin-0.0.2-alpha-2.pom.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ygi-maven-plugin-0.0.2-alpha-3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ygi-maven-plugin-0.0.2-alpha-3.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ygi-maven-plugin-0.0.2-alpha-3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ygi-maven-plugin-0.0.2-alpha-3.pom.asc" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,7 +91,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -64,8 +103,8 @@
       <file leaf-file-name="GradeCalc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GradeCalc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+            <state relative-caret-position="81">
+              <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Question.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Question.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="144">
+              <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -107,9 +146,9 @@
         <option value="$PROJECT_DIR$/src/main/java/ygi.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/GradeScheme.java" />
         <option value="$PROJECT_DIR$/src/main/java/YourGradeIs.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/GradeCalc.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Question.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GradeCalc.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -145,8 +184,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="306" />
-    <option name="y" value="72" />
+    <option name="x" value="253" />
+    <option name="y" value="68" />
     <option name="width" value="1205" />
     <option name="height" value="764" />
   </component>
@@ -286,7 +325,7 @@
       <option name="presentableId" value="Default" />
       <updated>1536598707373</updated>
       <workItem from="1536598748235" duration="10246000" />
-      <workItem from="1539822423059" duration="798000" />
+      <workItem from="1539822423059" duration="2107000" />
     </task>
     <task id="LOCAL-00001" summary="hello world plugin">
       <created>1536601645934</created>
@@ -306,10 +345,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11044000" />
+    <option name="totallyTimeSpent" value="12353000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="306" y="72" width="1205" height="764" extended-state="0" />
+    <frame x="253" y="68" width="1205" height="764" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -319,15 +358,15 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.24677558" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.24677558" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="CDI" order="3" weight="0.32994187" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3298351" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28785607" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.47226387" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1994841" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2760103" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -427,27 +466,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="144">
+          <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GradeCalc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+        <state relative-caret-position="81">
+          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Question.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>

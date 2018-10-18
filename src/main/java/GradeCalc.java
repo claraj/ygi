@@ -51,7 +51,7 @@ public class GradeCalc {
             double totalFail = 0;
 
             for (String testFile : testFiles) {
-                TestFileResults results = readTestResults(testFile, week);
+                TestFileResults results = readTestResults(testFile);
                 if (results == null) {
                     log.warn("Warning - could not read results from Test Results file. Skipping.");
                 } else {
@@ -72,13 +72,13 @@ public class GradeCalc {
 
     }
 
-    private TestFileResults readTestResults(String fileBase, int week) throws MojoExecutionException {
+    private TestFileResults readTestResults(String fileBase) throws MojoExecutionException {
 
         // find the surefire file /target/surefire-reports/week_5.Question_4_Exception_Handling_QuestionsTest.txt
 
         log.info("Test result file: " + fileBase);
 
-        String filename = String.format("week_%d.%s.txt", week, fileBase);
+        String filename = String.format("%s.txt", fileBase);
         File dirOb = new File("target", "surefire-reports");
         File fileOb = new File(dirOb, filename);
 
