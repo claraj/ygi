@@ -74,7 +74,7 @@ public class GradeCalc {
 
     private TestFileResults readTestResults(String fileBase) throws MojoExecutionException {
 
-        // find the surefire file /target/surefire-reports/week_5.Question_4_Exception_Handling_QuestionsTest.txt
+        // find the surefire file e.g  /target/surefire-reports/week_5.Question_4_Exception_Handling_QuestionsTest.txt
 
         log.info("Test result file: " + fileBase);
 
@@ -104,7 +104,8 @@ public class GradeCalc {
             }
         } catch (IOException e) {
             log.error("Can't find test results file. Did you run this from the run configuration provided? Is there anything in target/surefire-reports?");
-            throw new MojoExecutionException("error finding test results file");
+            //throw new MojoExecutionException("error finding test results file");
+            return null;
         }
 
     }
@@ -112,7 +113,6 @@ public class GradeCalc {
 
     private GradeScheme readGradeScheme() throws MojoExecutionException {
         try {
-
             JsonReader reader = new JsonReader(new FileReader(new File("grades", "grade_scheme.json")));
             Gson gson = new Gson();
             return gson.fromJson(reader, GradeScheme.class);
